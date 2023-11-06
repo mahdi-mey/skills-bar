@@ -1,0 +1,1 @@
+const allTooltips = document.querySelectorAll('.skill_tooltip')
