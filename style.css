@@ -64,4 +64,15 @@ body {
   height: 100%;
   position: relative;
   width: 90%;
+  transition: all 0.2s ease-in-out;
+  animation: increase 1.5s ease forwards;
+  transform-origin: left;
+}
+@keyframes increase {
+  from{
+    transform: scaleX(0);
+  }
+  to{
+    transform: scaleX(1);
+  }
 }
