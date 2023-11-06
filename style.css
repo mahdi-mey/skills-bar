@@ -35,6 +35,11 @@ body {
 .skill_box {
   margin-block: 1.5rem;
 }
+.skill_infos{
+  display: flex;
+  justify-content: space-between;
+  color: #eee;
+}
 .skill_title {
   color: #333;
   font-size: 14px;
