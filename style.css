@@ -63,10 +63,21 @@ body {
   background-color: #f44040;
   height: 100%;
   position: relative;
-  width: 90%;
   transition: all 0.2s ease-in-out;
   animation: increase 1.5s ease forwards;
   transform-origin: left;
+}
+.html{
+  width: 90%;
+}
+.css{
+  width: 80%;
+}
+.js{
+  width: 75%;
+}
+.react{
+  width: 10%;
 }
 @keyframes increase {
   from{
